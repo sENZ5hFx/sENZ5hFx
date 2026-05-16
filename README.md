@@ -246,7 +246,7 @@ It stores like a wave function.
 |---|---|
 | **🌩️ [RoofSignal](https://github.com/sENZ5hFx/RoofSignal)**<br/>Storm intelligence dashboard for roofing contractors.<br/>`Node.js` `React` `Mapbox` | **🎨 [Create.ly](https://github.com/sENZ5hFx/Create.ly)**<br/>AI-powered smart media platform for creators.<br/>`TypeScript` `React` `OpenAI` |
 | **📋 [framework-playbook-os](https://github.com/sENZ5hFx/framework-playbook-os)**<br/>Local-first product strategy & operations playbook.<br/>`HTML` `JS` `LocalStorage` | **🔍 [integrity-monitor](https://github.com/sENZ5hFx/integrity-monitor)**<br/>Automated workspace auditing across Notion & GitHub.<br/>`Node.js` `GitHub Actions` `Apify` |
-| **🎯 [object-obsession](https://github.com/sENZ5hFx/object-obsession)**<br/>Visual reference deck of 30 industrial design objects.<br/>`HTML` `CSS` `SVG` | **💼 [haleybird-interactive-ai-portfolio-emotion-ui-ux-creative-tech](https://github.com/sENZ5hFx/haleybird-interactive-ai-portfolio-emotion-ui-ux-creative-tech)**<br/>AI-driven interactive portfolio & creative lab.<br/>`TypeScript` `React` `Three.js` |
+| **🎯 [object-obsession](https://github.com/sENZ5hFx/object-obsession)**<br/>Visual reference deck of 30 industrial design objects.<br/>`HTML` `CSS` `SVG` | **💼 [haleybird-portfolio](https://github.com/sENZ5hFx/haleybird-portfolio)**<br/>AI-driven interactive portfolio & creative lab.<br/>`TypeScript` `React` `Three.js` |
 
 </div>
 
