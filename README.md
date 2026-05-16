@@ -232,10 +232,21 @@ It stores like a wave function.
 
 <div align="center">
 
+**Core IP & Architecture**
+
 | | |
 |---|---|
 | **🧠 [NeuroCatalyst™](https://github.com/sENZ5hFx/NeuroCatalyst)**<br/>Flagship architecture. Vision. Full doctrine.<br/>`Python` `AI` `Architecture` | **🔬 [neurocatalyst-ip-prototypes](https://github.com/sENZ5hFx/neurocatalyst-ip-prototypes)**<br/>IP portfolio prototypes. Timestamped. Disclosed.<br/>`Python` `IP` `Disclosure` |
 | **📚 [knowledge-system-haley](https://github.com/sENZ5hFx/knowledge-system-haley)**<br/>Live rolling knowledge machine. Gets smarter daily.<br/>`Python` `KnowledgeGraph` `Public` | **🤖 [sios-autoagent](https://github.com/sENZ5hFx/sios-autoagent)**<br/>AI that makes itself unnecessary. That's the point.<br/>`Python` `Notion` `AIAgent` |
+| **🧬 [CAUSAL_INTELLIGENCE](https://github.com/sENZ5hFx/CAUSAL_INTELLIGENCE)**<br/>Causal ledger, trust graphs, and prediction engine.<br/>`Python` `FastAPI` `PostgreSQL` | **🌑 [dark-biosphere-discovery](https://github.com/sENZ5hFx/dark-biosphere-discovery)**<br/>Bio-inspired signal detection research & patent work.<br/>`Research` `Patent` `Bio` |
+
+**Products & Tools**
+
+| | |
+|---|---|
+| **🌩️ [RoofSignal](https://github.com/sENZ5hFx/RoofSignal)**<br/>Storm intelligence dashboard for roofing contractors.<br/>`Node.js` `React` `Mapbox` | **🎨 [Create.ly](https://github.com/sENZ5hFx/Create.ly)**<br/>AI-powered smart media platform for creators.<br/>`TypeScript` `React` `OpenAI` |
+| **📋 [framework-playbook-os](https://github.com/sENZ5hFx/framework-playbook-os)**<br/>Local-first product strategy & operations playbook.<br/>`HTML` `JS` `LocalStorage` | **🔍 [integrity-monitor](https://github.com/sENZ5hFx/integrity-monitor)**<br/>Automated workspace auditing across Notion & GitHub.<br/>`Node.js` `GitHub Actions` `Apify` |
+| **🎯 [object-obsession](https://github.com/sENZ5hFx/object-obsession)**<br/>Visual reference deck of 30 industrial design objects.<br/>`HTML` `CSS` `SVG` | **💼 [haleybird-portfolio](https://github.com/sENZ5hFx/haleybird-portfolio)**<br/>AI-driven interactive portfolio & creative lab.<br/>`TypeScript` `React` `Three.js` |
 
 </div>
 
