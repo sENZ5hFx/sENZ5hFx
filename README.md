@@ -315,3 +315,19 @@ It stores like a wave function.
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:0d0221,100:1a0533&height=130&section=footer&text=Memory%20is%20the%20architecture%20of%20identity.&fontSize=16&fontColor=9d7fe0&fontAlignY=62" width="100%" style="max-width:100%;display:block;" alt="footer"/>
 </div>
+
+---
+
+## Legal & Intellectual Property
+
+> **Copyright (c) 2025 Haley Ann Bird. All Rights Reserved.**
+
+This project contains proprietary intellectual property. All code, algorithms, architectures, documentation, and creative works are protected under applicable intellectual property laws.
+
+- [LICENSE](./LICENSE) - License terms
+- [SECURITY.md](./SECURITY.md) - Security policy and vulnerability reporting
+- [COPYRIGHT_AND_ATTRIBUTIONS.md](./COPYRIGHT_AND_ATTRIBUTIONS.md) - Copyright and attribution details
+- [TRADEMARK.md](./TRADEMARK.md) - Trademark information
+- [PATENT.md](./PATENT.md) - Patent notice
+
+**Contact:** heyhaleybird@gmail.com
