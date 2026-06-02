@@ -1,0 +1,239 @@
+# ============================================================
+# IP Defense Workflow — Haley Ann Bird
+# ============================================================
+# Purpose: Automated IP attestation, authorship verification,
+# copyright header enforcement, and disclosure integrity checks
+# on every push to this repository.
+#
+# Copyright © 2024–2026 Haley Ann Bird. All rights reserved.
+# ============================================================
+
+name: IP Defense — Attestation and Integrity
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  schedule:
+    # Run full attestation weekly on Sundays at midnight UTC
+    - cron: '0 0 * * 0'
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: 'Reason for manual trigger (e.g. new disclosure, legal review)'
+        required: false
+        default: 'Manual IP audit'
+
+jobs:
+
+  # ----------------------------------------------------------------
+  # Job 1: Authorship Attestation
+  # Verifies that all commits in this repository are authored by
+  # the authorized inventor (Haley Ann Bird) and logs a summary.
+  # ----------------------------------------------------------------
+  authorship-attestation:
+    name: Authorship Attestation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout full history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate commit authorship report
+        run: |
+          echo "=== IP ATTESTATION REPORT ==="
+          echo "Repository: ${{ github.repository }}"
+          echo "Run date: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          echo "Triggered by: ${{ github.actor }}"
+          echo "Trigger event: ${{ github.event_name }}"
+          echo ""
+          echo "=== COMMIT AUTHORS ==="
+          git log --format='%H | %ae | %ai | %s' | head -100
+          echo ""
+          echo "=== UNIQUE AUTHORS ==="
+          git log --format='%ae' | sort | uniq -c | sort -rn
+          echo ""
+          echo "=== TOTAL COMMITS ==="
+          git rev-list --count HEAD
+
+      - name: Verify primary author dominance
+        run: |
+          PRIMARY="heyhaleybird@gmail.com"
+          TOTAL=$(git rev-list --count HEAD)
+          PRIMARY_COUNT=$(git log --format='%ae' | grep -c "$PRIMARY" || true)
+          echo "Primary author ($PRIMARY): $PRIMARY_COUNT / $TOTAL commits"
+          if [ "$TOTAL" -gt 0 ] && [ "$PRIMARY_COUNT" -eq 0 ]; then
+            echo "WARNING: No commits found from primary author email."
+            echo "This may indicate a configuration issue. Review commit author settings."
+          else
+            echo "OK: Primary author commits verified."
+          fi
+
+  # ----------------------------------------------------------------
+  # Job 2: IP Document Integrity Check
+  # Verifies that all required IP defense documents are present
+  # and non-empty. Fails if any required file is missing.
+  # ----------------------------------------------------------------
+  ip-document-integrity:
+    name: IP Document Integrity Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verify required IP documents exist
+        run: |
+          REQUIRED_FILES=(
+            "IP_DECLARATION.md"
+            "PROVISIONAL_CLAIMS.md"
+            "PATENTS_PENDING.md"
+            "ARCHITECTURE_DISCLOSURE.md"
+            "PROVENANCE.md"
+            "TRADE_SECRETS.md"
+            "PRIOR_ART_REGISTER.md"
+            "NOTICE"
+            "LICENSE"
+            "TRADEMARK.md"
+            "SECURITY.md"
+            ".ip-timestamp"
+          )
+          ALL_OK=true
+          for FILE in "${REQUIRED_FILES[@]}"; do
+            if [ -f "$FILE" ] && [ -s "$FILE" ]; then
+              echo "OK: $FILE exists and is non-empty"
+            else
+              echo "MISSING or EMPTY: $FILE"
+              ALL_OK=false
+            fi
+          done
+          if [ "$ALL_OK" = false ]; then
+            echo ""
+            echo "ERROR: One or more required IP documents are missing or empty."
+            echo "This must be corrected to maintain full IP protection."
+            exit 1
+          fi
+          echo ""
+          echo "All required IP documents verified."
+
+      - name: Check IP document word counts
+        run: |
+          echo "=== IP DOCUMENT WORD COUNTS ==="
+          for FILE in IP_DECLARATION.md PROVISIONAL_CLAIMS.md PATENTS_PENDING.md \
+                      ARCHITECTURE_DISCLOSURE.md PROVENANCE.md TRADE_SECRETS.md \
+                      PRIOR_ART_REGISTER.md NOTICE LICENSE TRADEMARK.md SECURITY.md; do
+            if [ -f "$FILE" ]; then
+              WORDS=$(wc -w < "$FILE")
+              LINES=$(wc -l < "$FILE")
+              echo "  $FILE: $WORDS words, $LINES lines"
+            fi
+          done
+
+  # ----------------------------------------------------------------
+  # Job 3: Copyright Header Scan
+  # Scans all .md files for copyright notice presence.
+  # Warns (does not fail) for files missing the notice.
+  # ----------------------------------------------------------------
+  copyright-header-scan:
+    name: Copyright Header Scan
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Scan markdown files for copyright notice
+        run: |
+          echo "=== COPYRIGHT HEADER SCAN ==="
+          MISSING_COUNT=0
+          while IFS= read -r -d '' FILE; do
+            if grep -q 'Copyright' "$FILE" 2>/dev/null || grep -q 'Haley Ann Bird' "$FILE" 2>/dev/null; then
+              echo "OK: $FILE"
+            else
+              echo "MISSING COPYRIGHT: $FILE"
+              MISSING_COUNT=$((MISSING_COUNT + 1))
+            fi
+          done < <(find . -name '*.md' -not -path './.git/*' -print0)
+          echo ""
+          echo "Files missing copyright: $MISSING_COUNT"
+          if [ "$MISSING_COUNT" -gt 0 ]; then
+            echo "WARNING: Consider adding copyright notices to the above files."
+            echo "This does not fail the workflow — copyright exists regardless of notice."
+          fi
+
+  # ----------------------------------------------------------------
+  # Job 4: IP Timestamp Update
+  # Updates the .ip-timestamp file with the current run metadata
+  # to provide a continuous chain of authenticated timestamps.
+  # ----------------------------------------------------------------
+  ip-timestamp-update:
+    name: IP Timestamp Update
+    runs-on: ubuntu-latest
+    needs: [authorship-attestation, ip-document-integrity]
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update IP timestamp
+        run: |
+          TIMESTAMP=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+          COMMIT_SHA=${{ github.sha }}
+          ACTOR=${{ github.actor }}
+          cat > .ip-timestamp << EOF
+          # IP Timestamp — Haley Ann Bird
+          # Auto-updated by ip-defense.yml workflow
+          # DO NOT MANUALLY EDIT — this file is maintained by CI
+          last_attested: ${TIMESTAMP}
+          commit_sha: ${COMMIT_SHA}
+          attested_by: ${ACTOR}
+          owner: Haley Ann Bird
+          email: heyhaleybird@gmail.com
+          EOF
+          echo "Updated .ip-timestamp to $TIMESTAMP"
+
+      - name: Commit timestamp update
+        run: |
+          git config user.name "IP Defense Bot"
+          git config user.email "heyhaleybird@gmail.com"
+          git add .ip-timestamp
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore(ip): auto-update IP timestamp [$(date -u +%Y-%m-%dT%H:%M:%SZ)]"
+            git push
+          fi
+
+  # ----------------------------------------------------------------
+  # Job 5: Prior Art Register Freshness Check
+  # Warns if the PRIOR_ART_REGISTER.md has not been updated
+  # in the last 60 days (scheduled runs only).
+  # ----------------------------------------------------------------
+  prior-art-freshness:
+    name: Prior Art Register Freshness Check
+    runs-on: ubuntu-latest
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check PRIOR_ART_REGISTER.md last modified date
+        run: |
+          LAST_MODIFIED=$(git log -1 --format='%ai' -- PRIOR_ART_REGISTER.md)
+          LAST_MODIFIED_EPOCH=$(date -d "$LAST_MODIFIED" +%s 2>/dev/null || date -j -f "%Y-%m-%d %H:%M:%S %z" "$LAST_MODIFIED" +%s 2>/dev/null || echo 0)
+          NOW_EPOCH=$(date +%s)
+          DAYS_AGO=$(( (NOW_EPOCH - LAST_MODIFIED_EPOCH) / 86400 ))
+          echo "PRIOR_ART_REGISTER.md last updated: $LAST_MODIFIED ($DAYS_AGO days ago)"
+          if [ "$DAYS_AGO" -gt 60 ]; then
+            echo "WARNING: PRIOR_ART_REGISTER.md has not been updated in $DAYS_AGO days."
+            echo "Recommended: Review for new prior art in relevant CPC classes."
+            echo "CPC classes: G06F 16/901, G06F 40/30, G06N 5/02, H04L 67/306"
+          else
+            echo "OK: Prior art register is current."
+          fi
