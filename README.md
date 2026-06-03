@@ -22,7 +22,106 @@
 
 <!-- HEADER -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:0a0a0f,25:0d0221,60:1a0533,100:000000&height=280&section=header&text=HALEY%20ANN%20BIRD&fontSize=52&fontColor=ffffff&fontAlignY=45&animation=fadeIn&desc=independent%20AI%20inventor%20%7C%20NeuroCatalyst%E2%84%A2%20%7C%20Fishers%2C%20Indiana&descSize=15&descAlignY=65&descFontColor=9d7fe0" />
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 220" width="860" height="220" role="img" aria-label="Haley Ann Bird — independent AI inventor">
+  <defs>
+    <!-- Deep space background gradient -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0f"/>
+      <stop offset="30%" stop-color="#0d0221"/>
+      <stop offset="70%" stop-color="#1a0533"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+
+    <!-- Glass pill fill for name -->
+    <linearGradient id="glassName" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="50%" stop-color="#b794f4" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#6b21a8" stop-opacity="0.18"/>
+    </linearGradient>
+
+    <!-- Glass pill fill for tagline -->
+    <linearGradient id="glassTag" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0.10"/>
+    </linearGradient>
+
+    <!-- Soft purple glow behind name pill -->
+    <filter id="glow" x="-20%" y="-60%" width="140%" height="220%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <!-- Subtle blur for glass body -->
+    <filter id="glassBlur" x="-5%" y="-20%" width="110%" height="140%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+
+    <!-- Top-edge specular shimmer -->
+    <linearGradient id="shimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#ffffff" stop-opacity="0.45"/>
+      <stop offset="70%" stop-color="#d8b4fe" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Clip path so nothing renders outside the card -->
+    <clipPath id="cardClip">
+      <rect x="0" y="0" width="860" height="220" rx="0"/>
+    </clipPath>
+  </defs>
+
+  <!-- ── Background ── -->
+  <rect width="860" height="220" fill="url(#bg)"/>
+
+  <!-- Ambient purple orb (soft, behind everything) -->
+  <ellipse cx="430" cy="110" rx="320" ry="100" fill="#7c3aed" opacity="0.13" filter="url(#glassBlur)"/>
+
+  <!-- ── NAME GLASS PILL ── -->
+  <!-- Glow halo -->
+  <rect x="130" y="38" width="600" height="72" rx="36" fill="#9333ea" opacity="0.28" filter="url(#glow)"/>
+  <!-- Glass body -->
+  <rect x="130" y="38" width="600" height="72" rx="36" fill="url(#glassName)"/>
+  <!-- Border -->
+  <rect x="130" y="38" width="600" height="72" rx="36" fill="none" stroke="#ffffff" stroke-opacity="0.22" stroke-width="1.2"/>
+  <!-- Top specular edge -->
+  <rect x="150" y="39" width="560" height="2" rx="1" fill="url(#shimmer)" opacity="0.8"/>
+
+  <!-- NAME TEXT — large, bold, white, perfectly centered inside pill -->
+  <text
+    x="430" y="86"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    font-family="-apple-system, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
+    font-size="38"
+    font-weight="700"
+    letter-spacing="6"
+    fill="#ffffff"
+    opacity="0.97"
+  >HALEY ANN BIRD</text>
+
+  <!-- ── TAGLINE GLASS PILL ── -->
+  <!-- Glass body -->
+  <rect x="190" y="128" width="480" height="42" rx="21" fill="url(#glassTag)"/>
+  <!-- Border -->
+  <rect x="190" y="128" width="480" height="42" rx="21" fill="none" stroke="#d8b4fe" stroke-opacity="0.30" stroke-width="1"/>
+  <!-- Top specular edge -->
+  <rect x="210" y="129" width="440" height="1.5" rx="1" fill="url(#shimmer)" opacity="0.55"/>
+
+  <!-- TAGLINE TEXT — smaller, purple-white tint, centered inside pill -->
+  <text
+    x="430" y="149"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    font-family="-apple-system, 'SF Pro Text', 'Helvetica Neue', Arial, sans-serif"
+    font-size="13.5"
+    font-weight="500"
+    letter-spacing="2.5"
+    fill="#e9d5ff"
+    opacity="0.95"
+  >independent AI inventor · NeuroCatalyst™ · Fishers, Indiana</text>
+</svg>
+
 </div>
 
 <!-- TYPING ANIMATION -->
@@ -141,7 +240,7 @@
       YOU (input)
            |
  Context Stream Engine™
- [ every word. every moment. ]
+[ every word. every moment. ]
            |
       +-----+-----+
       |     |     |
