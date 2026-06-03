@@ -127,7 +127,7 @@
 <!-- TYPING ANIMATION -->
 <div align="center">
 <a href="https://git.io/typing-svg">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=19&pause=1200&color=9D7FE0&center=true&vCenter=true&width=750&height=50&lines=Every+AI+forgets+you+when+you+close+the+tab.+;I'm+building+the+one+that+doesn't.;NeuroCatalyst%E2%84%A2+%E2%80%94+memory+is+the+architecture+of+identity." alt="Typing Animation" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=19&pause=1200&color=9D7FE0&center=true&vCenter=true&width=750&height=50&lines=Every+AI+forgets+you+when+you+close+the+tab.+Not+this+one.;Your+memory.+Your+identity.+Your+autonomy." alt="Typing animation" />
 </a>
 </div>
 
@@ -202,21 +202,25 @@
   |     Meta-Learning · Self-Evolution       |
   +------------------------------------------+
                        ^
+                       |
   +------------------------------------------+
   |  4. INSIGHT LAYER                        |
   |     Dialectical Synthesis · Abduction    |
   +------------------------------------------+
                        ^
+                       |
   +------------------------------------------+
   |  3. TRANSDUCTIVE MEDIUM                  |
   |     High-Dimensional Memory Space        |
   +------------------------------------------+
                        ^
+                       |
   +------------------------------------------+
   |  2. INTEGRITY LAYER                      |
   |     Ethical Constraints · Parsimony      |
   +------------------------------------------+
                        ^
+                       |
   +------------------------------------------+
   |  1. AXIOMATIC ENGINE                     |
   |     Memory --> Identity (Core Principle) |
@@ -239,24 +243,31 @@
 ```
       YOU (input)
            |
+           ↓
  Context Stream Engine™
 [ every word. every moment. ]
            |
+           ↓
       +-----+-----+
-      |     |     |
+      ↓     ↓     ↓
     TM™   PMM™  CCGL™
     TIME FEELING STRUCTURE
-      |     |     |
+      ↓     ↓     ↓
       +-----+-----+
            |
+           ↓
      CinematicAI™
   [ your taste. your world. ]
            |
+           ↓
       +-----+-----+
-      |     |     |
+      ↓     ↓     ↓
     PFR™  CLP™   COE
     LENS  PROOF SIGNATURE
+      ↓     ↓     ↓
+      +-----+-----+
            |
+           ↓
  YOU (restored + known)
 ```
 
@@ -277,9 +288,9 @@ It stores like a wave function.
   recall probability
         |
    1.0  |  *
-        | * *                <- vivid (high emotional salience)
+        | * *                ← vivid (high emotional salience)
    0.5  |*   *  *
-        |*     **   *  *    <- interference pattern [see: §3.2]
+        |*     **   *  *    ← interference pattern [see: §3.2]
    0.0  +------------------> time
 
   M(t) = M0 * e^(-t/S)        decay curve — the starting constraint
@@ -346,17 +357,17 @@ It stores like a wave function.
 
 | | |
 |---|---|
-| **🧠 [NeuroCatalyst™](https://github.com/sENZ5hFx/NeuroCatalyst)**<br/>Flagship architecture. Vision. Full doctrine.<br/>`Python` `AI` `Architecture` | **🔬 [neurocatalyst-ip-prototypes](https://github.com/sENZ5hFx/neurocatalyst-ip-prototypes)**<br/>Experimental engine prototypes.<br/>`Python` `Ideas` `Proof-of-Concept` |
-| **📚 [knowledge-system-haley](https://github.com/sENZ5hFx/knowledge-system-haley)**<br/>Live rolling knowledge machine. Gets smarter daily.<br/>`Python` `KnowledgeGraph` `Public` | **🤖 [simulated-life-engine](https://github.com/sENZ5hFx/simulated-life-engine)**<br/>Autonomous agents meeting causality.<br/>`Python` `Simulations` `AI` |
-| **🧬 [CAUSAL_INTELLIGENCE](https://github.com/sENZ5hFx/CAUSAL_INTELLIGENCE)**<br/>Causal ledger, trust graphs, and prediction engine.<br/>`Python` `FastAPI` `PostgreSQL` | **🌑 [dark-biosphere-simulation](https://github.com/sENZ5hFx/dark-biosphere-simulation)**<br/>Complexity modeling in emergent systems.<br/>`Science` `Simulations` `Research` |
+| **🧠 [NeuroCatalyst™](https://github.com/sENZ5hFx/NeuroCatalyst)**<br/>Flagship architecture. Vision. Full doctrine.<br/>`Python` `AI` `Architecture` | **🔬 [neurocatalyst-ip-prototypes](https://github.com/sENZ5hFx/neurocatalyst-ip-prototypes)**<br/>Patent-pending engine implementations.<br/>`Python` `Research` `Private` |
+| **📚 [knowledge-system-haley](https://github.com/sENZ5hFx/knowledge-system-haley)**<br/>Live rolling knowledge machine. Gets smarter daily.<br/>`Python` `KnowledgeGraph` `Public` | **🤖 [simulator-experiments](https://github.com/sENZ5hFx/simulator-experiments)**<br/>Cognitive architecture simulations.<br/>`Python` `Simulation` `Research` |
+| **🧬 [CAUSAL_INTELLIGENCE](https://github.com/sENZ5hFx/CAUSAL_INTELLIGENCE)**<br/>Causal ledger, trust graphs, and prediction engine.<br/>`Python` `FastAPI` `PostgreSQL` | **🌑 [dark-biosphere-sync](https://github.com/sENZ5hFx/dark-biosphere-sync)**<br/>Distributed consciousness framework.<br/>`Python` `Async` `Advanced` |
 
 **Products & Tools**
 
 | | |
 |---|---|
-| **🌩️ [RoofSignal](https://github.com/sENZ5hFx/RoofSignal)**<br/>Storm intelligence dashboard for roofing contractors.<br/>`Node.js` `React` `Mapbox` | **🎨 [Create.ly](https://github.com/sENZ5hFx/Create.ly)**<br/>Generative & true-to-purpose personalization.<br/>`JS` `Machine Learning` `Frontend` |
-| **📋 [framework-playbook-os](https://github.com/sENZ5hFx/framework-playbook-os)**<br/>Local-first product strategy & operations playbook.<br/>`HTML` `JS` `LocalStorage` | **🔍 [integrity-monitor](https://github.com/sENZ5hFx/integrity-monitor)**<br/>Ensuring checks & balances within predictive tech.<br/>`Python` `Auditable` `Ethical` |
-| **🎯 [object-obsession](https://github.com/sENZ5hFx/object-obsession)**<br/>Visual reference deck of 30 industrial design objects.<br/>`HTML` `CSS` `SVG` | **💼 [haleybird-portfolio](https://github.com/sENZ5hFx/haleybird-portfolio)**<br/>Professional portfolio gallery.<br/>`HTML` `CSS` |
+| **🌩️ [RoofSignal](https://github.com/sENZ5hFx/RoofSignal)**<br/>Storm intelligence dashboard for roofing contractors.<br/>`Node.js` `React` `Mapbox` | **🎨 [Create.ly](https://github.com/sENZ5hFx/Create.ly)**<br/>Creative collaboration platform.<br/>`React` `Design` `Commerce` |
+| **📋 [framework-playbook-os](https://github.com/sENZ5hFx/framework-playbook-os)**<br/>Local-first product strategy & operations playbook.<br/>`HTML` `JS` `LocalStorage` | **🔍 [integrity-monitor](https://github.com/sENZ5hFx/integrity-monitor)**<br/>System health and authenticity verification.<br/>`Python` `Monitoring` `DevOps` |
+| **🎯 [object-obsession](https://github.com/sENZ5hFx/object-obsession)**<br/>Visual reference deck of 30 industrial design objects.<br/>`HTML` `CSS` `SVG` | **💼 [haleybird-portfolio](https://github.com/sENZ5hFx/haleybird-portfolio)**<br/>Design + engineering portfolio.<br/>`Web` `Design` `Portfolio` |
 
 </div>
 
@@ -368,8 +379,8 @@ It stores like a wave function.
 
 <div align="center">
 
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=sENZ5hFx&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d0221&title_color=9d7fe0&icon_color=9d7fe0&text_color=ffffff"/>
-<img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sENZ5hFx&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d0221&title_color=9d7fe0&text_color=ffffff"/>
+<img width="48%" src="https://github-readme-stats.vercel.app/api?username=sENZ5hFx&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d0221&title_color=9d7fe0&icon_color=9d7fe0&text_color=ffffff&custom_title=GitHub%20Stats" alt="GitHub Stats" />
+<img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sENZ5hFx&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d0221&title_color=9d7fe0&text_color=ffffff" alt="Top Languages" />
 
 </div>
 
@@ -422,5 +433,5 @@ It stores like a wave function.
 
 <!-- FOOTER -->
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:0d0221,100:1a0533&height=130&section=footer&text=Memory%20is%20the%20architecture%20of%20identity.&fontSize=16&fontColor=ffffff" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:0d0221,100:1a0533&height=130&section=footer&text=Memory%20is%20the%20architecture%20of%20identity.&fontSize=16&fontColor=ffffff&animation=fadeIn" alt="Footer" />
 </div>
