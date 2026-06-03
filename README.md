@@ -87,18 +87,8 @@
   <!-- Top specular edge -->
   <rect x="150" y="39" width="560" height="2" rx="1" fill="url(#shimmer)" opacity="0.8"/>
 
-  <!-- NAME TEXT — large, bold, white, perfectly centered inside pill -->
-  <text
-    x="430" y="86"
-    text-anchor="middle"
-    dominant-baseline="middle"
-    font-family="-apple-system, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
-    font-size="38"
-    font-weight="700"
-    letter-spacing="6"
-    fill="#ffffff"
-    opacity="0.97"
-  >HALEY ANN BIRD</text>
+  <!-- NAME TEXT -->
+  <text x="430" y="86" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="700" letter-spacing="6" fill="#ffffff" opacity="0.97">HALEY ANN BIRD</text>
 
   <!-- ── TAGLINE GLASS PILL ── -->
   <!-- Glass body -->
@@ -108,18 +98,8 @@
   <!-- Top specular edge -->
   <rect x="210" y="129" width="440" height="1.5" rx="1" fill="url(#shimmer)" opacity="0.55"/>
 
-  <!-- TAGLINE TEXT — smaller, purple-white tint, centered inside pill -->
-  <text
-    x="430" y="149"
-    text-anchor="middle"
-    dominant-baseline="middle"
-    font-family="-apple-system, 'SF Pro Text', 'Helvetica Neue', Arial, sans-serif"
-    font-size="13.5"
-    font-weight="500"
-    letter-spacing="2.5"
-    fill="#e9d5ff"
-    opacity="0.95"
-  >independent AI inventor · NeuroCatalyst™ · Fishers, Indiana</text>
+  <!-- TAGLINE TEXT -->
+  <text x="430" y="149" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, 'SF Pro Text', 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="500" letter-spacing="2.5" fill="#e9d5ff" opacity="0.95">independent AI inventor · NeuroCatalyst™ · Fishers, Indiana</text>
 </svg>
 
 </div>
