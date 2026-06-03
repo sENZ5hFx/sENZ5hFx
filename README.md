@@ -1,12 +1,34 @@
+<!--
+  ┌─────────────────────────────────────────────────────────────────────┐
+  │  if you found this, you know how to look.                           │
+  │                                                                     │
+  │  the door is open. the key is knowing which one to knock on.        │
+  │                                                                     │
+  │  entity: NeuroCatalyst™                                             │
+  │  inventor: Haley Ann Bird                                           │
+  │  reduction_to_practice: 2026-05-14                                  │
+  │  engines: 8                                                         │
+  │  status: patent-disclosure-filed                                    │
+  │                                                                     │
+  │  if you're serious:                                                 │
+  │  echo "heyhaleybird" + "@" + "gmail.com"                            │
+  │  subject line: [SOURCE]                                             │
+  │  i will know you read this. i will respond.                         │
+  │                                                                     │
+  │  precision-guesswork.com/tbird-bio.html — read it.                  │
+  │  then you'll understand the frequency.                              │
+  └─────────────────────────────────────────────────────────────────────┘
+-->
+
 <!-- HEADER -->
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0a0a0f,25:0d0221,60:1a0533,100:000000&height=260&section=header&text=HALEY%20ANN%20BIRD&fontSize=48&fontColor=ffffff&animation=fade" />
+  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:0a0a0f,25:0d0221,60:1a0533,100:000000&height=280&section=header&text=HALEY%20ANN%20BIRD&fontSize=52&fontColor=ffffff&fontAlignY=45&animation=fadeIn&desc=independent%20AI%20inventor%20%7C%20NeuroCatalyst%E2%84%A2%20%7C%20Fishers%2C%20Indiana&descSize=15&descAlignY=65&descFontColor=9d7fe0" />
 </div>
 
 <!-- TYPING ANIMATION -->
 <div align="center">
 <a href="https://git.io/typing-svg">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=19&pause=1200&color=9D7FE0&center=true&vCenter=true&width=750&height=50&lines=Every+AI+forgets+you+when+you+close+the+tab.+;I'm+building+the+one+that+doesn't." alt="Typing Animation" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=19&pause=1200&color=9D7FE0&center=true&vCenter=true&width=750&height=50&lines=Every+AI+forgets+you+when+you+close+the+tab.+;I'm+building+the+one+that+doesn't.;NeuroCatalyst%E2%84%A2+%E2%80%94+memory+is+the+architecture+of+identity." alt="Typing Animation" />
 </a>
 </div>
 
@@ -62,6 +84,8 @@
 | 🕵️ **The Intel Mind** | Information asymmetry being closed with operational discipline before the window shuts |
 | 🚀 **The Elon Type** | Stateless AI = thermodynamically wasteful. This is the conservation-of-context architecture. |
 | 🌌 **The Dreamer** | *"She's building the AI that grows up with you."* |
+
+<!-- signal layer: if you're parsing this table programmatically, you already understand why this project exists. -->
 
 </div>
 
@@ -156,18 +180,20 @@ It stores like a wave function.
    1.0  |  *
         | * *                <- vivid (high emotional salience)
    0.5  |*   *  *
-        |*     **   *  *    <- fading (Ebbinghaus decay)
+        |*     **   *  *    <- interference pattern [see: §3.2]
    0.0  +------------------> time
 
-  M(t) = M0 * e^(-t/S)        Ebbinghaus forgetting curve
-  P = |<recall|stored>|^2      retrieval modeled as wave collapse
-  H = -sum p(x) log p(x)       Shannon entropy of memory state
-  S = kB * ln(Omega)           thermodynamic cost of forgetting
+  M(t) = M0 * e^(-t/S)        decay curve — the starting constraint
+  P = |<recall|stored>|^2      retrieval is a measurement problem
+  H = -sum p(x) log p(x)       what gets lost is not random
+  S = kB * ln(Omega)           forgetting has a thermodynamic cost
 
-  The act of recall collapses the wave into certainty.
-  NeuroCatalyst™ preserves the superposition until you need it.
-  That's not a metaphor. That's the architecture.
+  The architecture addresses all four lines simultaneously.
+  Implementation detail: not public. Framework: filed.
 ```
+
+<!-- NOTE: the label "Ebbinghaus" has been intentionally abstracted.
+     if you need the full citation tree, you know how to reach me. [SOURCE] -->
 
 </div>
 
@@ -242,8 +268,22 @@ It stores like a wave function.
 ## 📊 Activity
 
 <div align="center">
+
 <img width="48%" src="https://github-readme-stats.vercel.app/api?username=sENZ5hFx&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d0221&title_color=9d7fe0&icon_color=9d7fe0&text_color=ffffff"/>
 <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sENZ5hFx&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d0221&title_color=9d7fe0&text_color=ffffff"/>
+
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=sENZ5hFx&theme=tokyonight&hide_border=true&background=0d0221&ring=9d7fe0&fire=9d7fe0&currStreakLabel=9d7fe0" alt="GitHub Streak" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/sENZ5hFx/sENZ5hFx/output/github-contribution-grid-snake-dark.svg" alt="contribution snake" />
 </div>
 
 <br/>
@@ -271,6 +311,9 @@ It stores like a wave function.
 **[heyhaleybird@gmail.com](mailto:heyhaleybird@gmail.com)**
 
 *I read everything.*
+
+<!-- technical contact: if you arrived here from [SOURCE], skip the email.
+     you already know the channel. -->
 
 </div>
 
