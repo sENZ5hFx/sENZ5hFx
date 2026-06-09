@@ -301,7 +301,7 @@ It stores like a wave function.
 
 *Investor, collaborator, engineer, or just curious?*
 
-**[haleybird.us@gmail.com](mailto:haleybird.us@gmail.com)**
+**[heyhaleybird@gmail.com](mailto:heyhaleybird@gmail.com)**
 
 *I read everything.*
 

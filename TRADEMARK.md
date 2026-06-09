@@ -1,43 +1,30 @@
 # Trademark Notice
 
-## Trademark Statement
+© 2026 Haley Ann Bird. All rights reserved.
 
-"sENZ5hFx" and all related logos, product names, feature names, and service names are trademarks or unregistered trademarks of Haley Ann Bird. The absence of a product or service name or logo from this list does not constitute a waiver of trademark or other intellectual property rights concerning that name or logo.
+Common-law trademarks of Haley Ann Bird under 15 U.S.C. § 1051 et seq.:
 
-## Protected Marks
+| Mark | Class | First Use |
+|------|-------|-----------|
+| NeuroCatalyst™ | AI software / personal intelligence | 2025 |
+| SIOS™ | AI automation / workspace intelligence | 2025 |
+| Divine Imbalance™ | Aesthetic system / design identity | 2025 |
+| sourcetrace™ | Software / developer tools | 2026 |
+| cartograph™ | Software / developer tools | 2026 |
+| threshold™ | Software / developer tools | 2026 |
+| firstlight™ | Software / developer tools | 2026 |
+| code-mappr™ | Software / developer tools | 2026 |
+| Department of Almost™ | Creative archive / brand identity | 2026 |
+| DLDIE Pipeline™ | Data processing software | 2024 |
+| NeuroCatalyst 2035™ | AI software / future platform vision | 2026 |
+| DLDES™ | Dynamic lifetime data exploration software | **2026-06-02** |
+| PIGE™ | Perpetual insight generation engine / AI software | **2026-06-02** |
+| PEGA™ | Personal event graph architecture / data software | **2026-06-02** |
+| ASRL™ | Adversarial self-review loop / AI methodology | **2026-06-02** |
+| Recursive Rediscovery Engine™ | AI software / personal knowledge management | **2026-06-02** |
+| Lifetime Evidence Spine™ | Data architecture / personal data sovereignty | **2026-06-02** |
+| Insight Object™ | Data structure / AI output format | **2026-06-02** |
 
-The following marks are claimed as trademarks of Haley Ann Bird:
-- **sENZ5hFx** — project name and brand identity
-- All related logos, icons, and visual brand elements
-- All product and feature names associated with this project
-- All taglines, slogans, and marketing phrases used in connection with this project
+Contact: heyhaleybird@gmail.com
 
-## Usage Guidelines
-
-### Permitted Use
-- Referencing the project name in documentation, articles, or reviews for purposes of identification
-- Linking to the official repository or project website
-- Describing compatibility or interoperability with the project
-
-### Prohibited Use
-- Using the project name, logos, or marks in a manner that implies endorsement, sponsorship, or affiliation without prior written permission
-- Modifying, distorting, or altering the project's logos or visual marks in any way
-- Using the project's marks in connection with any product or service that is likely to cause confusion
-- Registering any domain name, social media account, or business name that includes the project's marks without prior written permission
-
-## Enforcement
-
-Haley Ann Bird reserves the right to take appropriate legal action to protect these trademarks, including but not limited to:
-- Cease and desist notices
-- DMCA takedown requests
-- Legal proceedings for trademark infringement
-
-## Contact
-
-For trademark inquiries, usage permissions, or to report potential trademark infringement:
-
-- **Email:** heyhaleybird@gmail.com
-
----
-
-*Last updated: May 2025*
+> All marks listed here are claimed under common-law trademark rights based on first use in commerce and public disclosure. This file is timestamped via cryptographic Git commit and serves as dated evidence of first use.
