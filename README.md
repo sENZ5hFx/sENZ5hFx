@@ -59,8 +59,8 @@
   <!-- Horizontal rule below name -->
   <line x1="100" y1="196" x2="800" y2="196" stroke="url(#hRule)" stroke-width="0.6"/>
 
-  <!-- Subtitle -->
-  <text x="450" y="220" font-family="Raleway, sans-serif" font-size="12" fill="#9D7FE0" text-anchor="middle" letter-spacing="5" font-weight="400">NeuroCatalyst™  ·  NeuroCatalyst™  ·  Fishers, Indiana</text>
+  <!-- Subtitle — fixed: three distinct facts, no duplicate -->
+  <text x="450" y="220" font-family="Raleway, sans-serif" font-size="12" fill="#9D7FE0" text-anchor="middle" letter-spacing="5" font-weight="400">NeuroCatalyst™  ·  9 Engines  ·  Fishers, Indiana</text>
 
   <!-- Tag line -->
   <text x="450" y="270" font-family="Raleway, sans-serif" font-size="13" fill="#C4A8FF" fill-opacity="0.8" text-anchor="middle" font-style="italic" font-weight="300">Memory is the architecture of identity.</text>
@@ -82,36 +82,33 @@
 
 <br/>
 
-<!-- ═══════════════════ MARQUEE BAND ═══════════════════ -->
+<!-- ═══════════════════ TICKER — static, GitHub-safe ═══════════════════ -->
 <div align="center">
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 32" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 36" width="100%">
   <defs>
-    <linearGradient id="mbg" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="tbg" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#000000"/>
-      <stop offset="10%" stop-color="#0d0221"/>
-      <stop offset="90%" stop-color="#0d0221"/>
+      <stop offset="8%" stop-color="#0d0221"/>
+      <stop offset="92%" stop-color="#0d0221"/>
       <stop offset="100%" stop-color="#000000"/>
     </linearGradient>
-    <linearGradient id="mFade" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="tFadeL" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#000000" stop-opacity="1"/>
-      <stop offset="8%" stop-color="#000000" stop-opacity="0"/>
-      <stop offset="92%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="tFadeR" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
       <stop offset="100%" stop-color="#000000" stop-opacity="1"/>
     </linearGradient>
   </defs>
-  <rect width="900" height="32" fill="url(#mbg)"/>
-  <text font-family="Raleway, sans-serif" font-size="8" fill="#9D7FE0" fill-opacity="0.5" letter-spacing="4" font-weight="400">
-    <textPath href="#mpath">
-      NEUROCATALYST™ · 9 ENGINES · PATENT PENDING · FISHERS INDIANA · SOLE INVENTOR · REDUCTION TO PRACTICE 2026-05-14 · MEMORY IS THE ARCHITECTURE OF IDENTITY · NEUROCATALYST™ · 9 ENGINES · PATENT PENDING · FISHERS INDIANA ·
-      <animate attributeName="startOffset" from="0%" to="-100%" dur="28s" repeatCount="indefinite"/>
-    </textPath>
-  </text>
-  <defs>
-    <path id="mpath" d="M0,20 H2700"/>
-  </defs>
-  <!-- Fade masks -->
-  <rect width="900" height="32" fill="url(#mFade)"/>
+  <rect width="900" height="36" fill="url(#tbg)"/>
+  <line x1="60" y1="1" x2="840" y2="1" stroke="#9D7FE0" stroke-opacity="0.12" stroke-width="0.5"/>
+  <line x1="60" y1="35" x2="840" y2="35" stroke="#9D7FE0" stroke-opacity="0.12" stroke-width="0.5"/>
+  <text y="15" font-family="Raleway, sans-serif" font-size="7.5" fill="#9D7FE0" fill-opacity="0.55" letter-spacing="3.5" font-weight="400" text-anchor="middle" x="450">NEUROCATALYST™  ·  9 ENGINES  ·  PATENT PENDING  ·  FISHERS, INDIANA  ·  SOLE INVENTOR  ·  REDUCTION TO PRACTICE 2026-05-14</text>
+  <text y="27" font-family="Raleway, sans-serif" font-size="6.5" fill="#C4A8FF" fill-opacity="0.18" letter-spacing="4" font-weight="300" text-anchor="middle" x="450">MEMORY IS THE ARCHITECTURE OF IDENTITY  ·  NeuroCatalyst™  ·  Haley Ann Bird  ·  2026</text>
+  <rect x="0" y="0" width="80" height="36" fill="url(#tFadeL)"/>
+  <rect x="820" y="0" width="80" height="36" fill="url(#tFadeR)"/>
 </svg>
 
 </div>
@@ -120,9 +117,9 @@
 
 ---
 
-<!-- ═══════════════════ THE THING ITSELF ═══════════════════ -->
+<!-- ═══════════════════ NEUROCATALYST ═══════════════════ -->
 
-## · What Is NeuroCatalyst™
+## · NeuroCatalyst™
 
 <div align="center">
 
@@ -144,20 +141,31 @@
 
 <div align="center">
 
-| Traditional AI | NeuroCatalyst™ |
-|:---|:---|
-| More use → More dependency | More use → More autonomy |
-| Remembers for you forever | Teaches you to remember yourself |
-| Complexity grows with use | System fades as user grows |
+<table>
+<tr>
+  <th align="left">Traditional AI</th>
+  <th align="right">NeuroCatalyst™</th>
+</tr>
+<tr>
+  <td align="left">More use → More dependency</td>
+  <td align="right">More use → More autonomy</td>
+</tr>
+<tr>
+  <td align="left">Remembers for you forever</td>
+  <td align="right">Teaches you to remember yourself</td>
+</tr>
+<tr>
+  <td align="left">Complexity grows with use</td>
+  <td align="right">System fades as user grows</td>
+</tr>
+</table>
 
 </div>
 
-<div align="center">
+<br/>
 
-*Success is measured by independence gained.*
-*The system celebrates when you no longer need it.*
-
-</div>
+> *Success is measured by independence gained.*
+> *The system celebrates when you no longer need it.*
 
 <br/>
 
@@ -193,27 +201,6 @@
 
 ---
 
-<!-- ═══════════════════ WHO LANDS HERE ═══════════════════ -->
-
-## · Who Lands Here
-
-*This isn't a portfolio. It's a collision point.*
-*One person built something that shouldn't exist yet.*
-
-<br/>
-
-<div align="center">
-
-| Investor | Engineer | Everyone Else |
-|:---|:---|:---|
-| IP moat. Category creation. Right timing. | Read the architecture. Respect the prior art. | Feel it first. Understand it after. |
-
-</div>
-
-<br/>
-
----
-
 <!-- ═══════════════════ THE TIMELINE ═══════════════════ -->
 
 ## · The Timeline
@@ -232,33 +219,6 @@
 
 ---
 
-<!-- ═══════════════════ ACTIVE REPOSITORIES ═══════════════════ -->
-
-## · Active Repositories
-
-<div align="center">
-
-| | |
-|---|---|
-| **[neurocatalyst-ip-prototypes](https://github.com/sENZ5hFx/neurocatalyst-ip-prototypes)**<br/>Pre-filing IP evidence. Runnable. Hash-certified. | **[framework-playbook-os](https://github.com/sENZ5hFx/framework-playbook-os)**<br/>Open-source product + strategy framework. |
-| **[knowledge-system-haley](https://github.com/sENZ5hFx/knowledge-system-haley)**<br/>Live rolling knowledge machine. Gets smarter daily. | **[sios-autoagent](https://github.com/sENZ5hFx/sios-autoagent)**<br/>AI that makes itself unnecessary. That's the point. |
-| **[object-obsession](https://github.com/sENZ5hFx/object-obsession)**<br/>Visual reference deck — 30 industrial design objects. | **[CAUSAL_INTELLIGENCE](https://github.com/sENZ5hFx/CAUSAL_INTELLIGENCE)**<br/>Causal ledger, trust graphs, prediction engine. |
-
-</div>
-
----
-
-<!-- ═══════════════════ ACTIVITY ═══════════════════ -->
-
-## · Activity
-
-<div align="center">
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=sENZ5hFx&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d0221&title_color=9d7fe0&icon_color=9d7fe0&text_color=ffffff" alt="GitHub Stats" />
-<img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sENZ5hFx&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d0221&title_color=9d7fe0&text_color=ffffff" alt="Top Languages" />
-</div>
-
----
-
 <!-- ═══════════════════ INTELLECTUAL PROPERTY ═══════════════════ -->
 
 ## · Intellectual Property
@@ -272,18 +232,36 @@
 
 ---
 
+<!-- ═══════════════════ ACTIVE REPOSITORIES ═══════════════════ -->
+
+## · Active Repositories
+
+<div align="center">
+
+| | |
+|---|---|
+| **[neurocatalyst-ip-prototypes](https://github.com/sENZ5hFx/neurocatalyst-ip-prototypes)**<br/>Pre-filing IP evidence. Runnable. Hash-certified. | **[framework-playbook-os](https://github.com/sENZ5hFx/framework-playbook-os)**<br/>Open-source product and strategy framework. |
+| **[knowledge-system-haley](https://github.com/sENZ5hFx/knowledge-system-haley)**<br/>Live rolling knowledge base. Built in the open. | **[sios-autoagent](https://github.com/sENZ5hFx/sios-autoagent)**<br/>AI that makes itself unnecessary. That's the point. |
+| **[object-obsession](https://github.com/sENZ5hFx/object-obsession)**<br/>Visual reference deck — 30 industrial design objects. | **[CAUSAL_INTELLIGENCE](https://github.com/sENZ5hFx/CAUSAL_INTELLIGENCE)**<br/>Causal ledger, trust graphs, prediction engine. |
+
+</div>
+
+---
+
 <!-- ═══════════════════ CONTACT ═══════════════════ -->
 
 ## · If You're Serious
 
 <div align="center">
 
-*The details aren't here. But they exist. Ask.*
+*Investor, engineer, or someone who recognizes what this is —*
 
-```
-heyhaleybird@gmail.com
-Subject line: [SOURCE]  ↱
-```
+*the details aren't here. But they exist.*
+
+<br/>
+
+**[heyhaleybird@gmail.com](mailto:heyhaleybird@gmail.com)**
+&nbsp;·&nbsp; subject line: `[SOURCE]`
 
 </div>
 
