@@ -3,7 +3,7 @@
 
 <!-- ===== HEADER ===== -->
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0a0a0f,25:0d0221,60:1a0533,100:000000&height=280&section=header&text=HALEY%20ANN%20BIRD&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=50&desc=Independent%20AI%20Inventor%20%C2%B7%20NeuroCatalyst%E2%84%A2%20%C2%B7%20Fishers%2C%20Indiana&descSize=15&descAlignY=70&descColor=9d7fe0" width="100%" alt="Haley Ann Bird — NeuroCatalyst™"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0a0a0f,25:0d0221,60:1a0533,100:000000&height=300&section=header&text=HALEY%20ANN%20BIRD&fontSize=56&fontColor=ffffff&animation=fadeIn&fontAlignY=42&desc=Independent%20AI%20Inventor%20%C2%B7%20NeuroCatalyst%E2%84%A2%20%C2%B7%20Fishers%2C%20Indiana&descSize=15&descAlignY=62&descColor=ffffff" width="100%" alt="Haley Ann Bird — NeuroCatalyst™"/>
 </div>
 
 <!-- ===== TYPING ===== -->
@@ -23,7 +23,7 @@
 │                                                                     │
 │   human ↔ memory ↔ language ↔ graph ↔ time ↔ AI ↔ you             │
 │                                                                     │
-│   M(t) = M₀ · e^(-t/S)              ← the problem I’m solving      │
+│   M(t) = M₀ · e^(-t/S)              ← the problem I'm solving      │
 │   Ψ(x,t) = Σ cₙφₙ(x)e^(-iEₙt/ħ)   ← how memory actually works    │
 │   P(ψ) = |⟨ψ_recall|ψ_stored⟩|²     ← retrieval = wave collapse    │
 │                                                                     │
@@ -36,9 +36,9 @@
 
 ## 🌀 Who Lands Here
 
-> *This isn’t a portfolio. It’s a collision point.*
+> *This isn't a portfolio. It's a collision point.*
 > *Every visitor — human, bot, investor, engineer, robot, dreamer — reads the same thing:*
-> *one person built something that shouldn’t exist yet.*
+> *one person built something that shouldn't exist yet.*
 
 <div align="center">
 
@@ -56,7 +56,7 @@
 
 <div align="center">
 
-*I’m an independent AI inventor building the cognitive infrastructure that makes AI genuinely personal.*
+*I'm an independent AI inventor building the cognitive infrastructure that makes AI genuinely personal.*
 
 *Not a chatbot upgrade. A new category — built from a basement in Indiana, at 3am, from first principles.*
 
@@ -107,14 +107,14 @@
 | # | Engine | One Word | What It Solves |
 |:-:|:---|:---:|:---|
 | 01 | **Context Stream Engine™** | Thread | AI forgets context between sessions |
-| 02 | **Personal Media Memory™** | Feeling | AI can’t recall what moved you |
-| 03 | **CinematicAI™** | Taste | AI doesn’t know your aesthetic |
+| 02 | **Personal Media Memory™** | Feeling | AI can't recall what moved you |
+| 03 | **CinematicAI™** | Taste | AI doesn't know your aesthetic |
 | 04 | **Cognitive Graph Language™** | Structure | AI stores facts, not relationships |
 | 05 | **Predictive Failure Recovery™** | Lens | AI shows the same world to everyone |
 | 06 | **Emotional State Detection System™** | Signal | AI has no read on how you actually are |
-| 07 | **CLP Ledger Protocol™** | Proof | AI can’t verify originality |
-| 08 | **Certify Originality™** | Signature | AI can’t authenticate your ideas |
-| 09 | **Emotional State Delivery System™** | Vector | Emotional state can’t flow downstream |
+| 07 | **CLP Ledger Protocol™** | Proof | AI can't verify originality |
+| 08 | **Certify Originality™** | Signature | AI can't authenticate your ideas |
+| 09 | **Emotional State Delivery System™** | Vector | Emotional state can't flow downstream |
 
 </div>
 
@@ -125,7 +125,7 @@
 <div align="center">
 
 ```
-Human memory doesn’t store like a hard drive.
+Human memory doesn't store like a hard drive.
 It stores like a wave function.
 
   probability of recall
@@ -142,7 +142,7 @@ It stores like a wave function.
 
   The act of recall collapses the wave.
   NeuroCatalyst™ preserves the superposition.
-  That’s not a metaphor. That’s the architecture.
+  That's not a metaphor. That's the architecture.
 ```
 
 </div>
@@ -190,7 +190,7 @@ It stores like a wave function.
 | | |
 |---|---|
 | **🔬 [neurocatalyst-ip-prototypes](https://github.com/sENZ5hFx/neurocatalyst-ip-prototypes)**<br/>Pre-filing IP evidence. Runnable. Hash-certified.<br/>`Python` `IP` `Disclosure` | **📡 [framework-playbook-os](https://github.com/sENZ5hFx/framework-playbook-os)**<br/>Open-source product + strategy framework.<br/>`HTML` `JS` `LocalStorage` |
-| **🕯️ [knowledge-system-haley](https://github.com/sENZ5hFx/knowledge-system-haley)**<br/>Live rolling knowledge machine. Gets smarter daily.<br/>`Python` `KnowledgeGraph` `Public` | **🤖 [sios-autoagent](https://github.com/sENZ5hFx/sios-autoagent)**<br/>AI that makes itself unnecessary. That’s the point.<br/>`Python` `Notion` `AIAgent` |
+| **🕯️ [knowledge-system-haley](https://github.com/sENZ5hFx/knowledge-system-haley)**<br/>Live rolling knowledge machine. Gets smarter daily.<br/>`Python` `KnowledgeGraph` `Public` | **🤖 [sios-autoagent](https://github.com/sENZ5hFx/sios-autoagent)**<br/>AI that makes itself unnecessary. That's the point.<br/>`Python` `Notion` `AIAgent` |
 | **🎯 [object-obsession](https://github.com/sENZ5hFx/object-obsession)**<br/>Visual reference deck of 30 industrial design objects.<br/>`HTML` `CSS` `SVG` | **🧠 [CAUSAL_INTELLIGENCE](https://github.com/sENZ5hFx/CAUSAL_INTELLIGENCE)**<br/>Causal ledger, trust graphs, and prediction engine.<br/>`Python` `FastAPI` `PostgreSQL` |
 
 </div>
@@ -216,7 +216,7 @@ It stores like a wave function.
 
 ---
 
-## 📬 If You’re Serious
+## 📬 If You're Serious
 
 <div align="center">
 
