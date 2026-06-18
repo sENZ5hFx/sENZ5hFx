@@ -3,48 +3,30 @@
 
 <!-- ===== HEADER ===== -->
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0a0a0f,20:0d0221,55:1a0533,85:0d0221,100:000000&height=420&section=header&text=HALEY%20ANN%20BIRD&fontSize=64&fontAlign=50&fontAlignY=36&fontColor=F0E6FF&fontFamily=Raleway&animation=fadeIn&desc=Independent%20AI%20Inventor%20%C2%B7%20NeuroCatalyst%E2%84%A2%20%C2%B7%20Fishers%2C%20Indiana&descSize=16&descAlignY=54&descColor=C4A8FF&descAlignX=50" width="100%" alt="Haley Ann Bird — NeuroCatalyst™"/>
-</div>
-
-<!-- ===== TYPING ===== -->
-<div align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Raleway&weight=500&size=17&pause=1400&color=9D7FE0&background=00000000&center=true&vCenter=true&multiline=false&width=700&height=45&lines=Every+AI+forgets+you+when+you+close+the+tab.;I%27m+building+the+one+that+doesn%27t.;NeuroCatalyst%E2%84%A2+%E2%80%94+9+engines.+One+architecture.;Built+alone.+From+a+basement.+From+first+principles.;Memory+is+the+architecture+of+identity." alt="Typing animation" /></a>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,15:0d0221,40:1a0533,60:1a0533,80:0d0221,100:000000&height=420&section=header&text=HALEY%20ANN%20BIRD&fontSize=64&fontAlign=50&fontAlignY=44&fontColor=F0E6FF&fontFamily=Raleway&animation=fadeIn&desc=Independent%20AI%20Inventor%20%C2%B7%20NeuroCatalyst%E2%84%A2%20%C2%B7%20Fishers%2C%20Indiana&descSize=16&descAlignY=60&descColor=C4A8FF&descAlignX=50" width="100%" alt="Haley Ann Bird — NeuroCatalyst™"/>
 </div>
 
 <br/>
 
-<!-- ===== THE EQUATION ===== -->
+<!-- ===== TYPING ===== -->
 <div align="center">
-
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│                                                                     │
-│   you are inside a living machine                                   │
-│                                                                     │
-│   human ↔ memory ↔ language ↔ graph ↔ time ↔ AI ↔ you             │
-│                                                                     │
-│   M(t) = M₀ · e^(-t/S)              ← the problem I'm solving      │
-│   Ψ(x,t) = Σ cₙφₙ(x)e^(-iEₙt/ħ)   ← how memory actually works    │
-│   P(ψ) = |⟨ψ_recall|ψ_stored⟩|²     ← retrieval = wave collapse    │
-│                                                                     │
-└─────────────────────────────────────────────────────────────────────┘
-```
-
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Raleway&weight=500&size=17&pause=1400&color=9D7FE0&background=00000000&center=true&vCenter=true&multiline=false&width=700&height=45&lines=Every+AI+forgets+you+when+you+close+the+tab.;I%27m+building+the+one+that+doesn%27t.;NeuroCatalyst%E2%84%A2+%E2%80%94+9+engines.+One+architecture.;Built+alone.+From+a+basement.+From+first+principles.;Memory+is+the+architecture+of+identity." alt="Typing SVG" /></a>
 </div>
+
+<br/>
 
 ---
 
 ## 🌀 Who Lands Here
 
 > *This isn't a portfolio. It's a collision point.*
-> *Every visitor — human, bot, investor, engineer, robot, dreamer — reads the same thing:*
-> *one person built something that shouldn't exist yet.*
+> *One person built something that shouldn't exist yet.*
 
 <div align="center">
 
-| 🏠 Neighbor | 👩‍💻 Engineer | 💰 Investor | 🤖 Robot | 🚀 First-Principles | 🌌 Dreamer |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| Feels it. No jargon needed. | Reads the architecture. Respects the prior art log. | Sees IP moat + category creation + timing. | Is literally running on ideas like these. | Thermodynamic efficiency. Civilizational scale. | Feels it before they understand it. |
+| 💰 Investor | 👩‍💻 Engineer | 🌌 Everyone Else |
+|:---:|:---:|:---:|
+| IP moat. Category creation. Right timing. | Read the architecture. Respect the prior art. | Feel it first. Understand it after. |
 
 </div>
 
@@ -56,9 +38,11 @@
 
 <div align="center">
 
-*I'm an independent AI inventor building the cognitive infrastructure that makes AI genuinely personal.*
+*Cognitive infrastructure that makes AI genuinely personal.*
 
 *Not a chatbot upgrade. A new category — built from a basement in Indiana, at 3am, from first principles.*
+
+*The architecture exists. The patents are pending. The details are not here.*
 
 </div>
 
@@ -70,93 +54,33 @@
 
 <div align="center">
 
-```
-              ┌──────────────────────────────┐
-              │       YOU — input             │
-              └──────────────┤───────────────┘
-                             │
-              ┌─────────────┤─────────────┐
-              │  Context Stream Engine™      │
-              │  [ every word. every moment ] │
-              └─────────────┤─────────────┘
-                             │
-       ┌───────────────────┼───────────────────┐
-  ┌───┤───┐      ┌───┤───┐      ┌───┤───┐
-  │ TM™  │      │ PMM™ │      │ CCGL™│
-  │ TIME │      │MEDIA │      │GRAPH │
-  └──────┘      └──────┘      └──────┘
-       └───────────────────┼───────────────────┘
-                             │
-              ┌─────────────┤─────────────┐
-              │      CinematicAI™           │
-              │  [ your taste. your world. ] │
-              └─────────────┤─────────────┘
-                             │
-       ┌───────────────────┼───────────────────┐
-  ┌───┤───┐      ┌───┤───┐      ┌───┤───┐
-  │ PFR™ │      │ CLP™ │      │ ESDS™│
-  │ LENS │      │PROOF │      │SIGNAL│
-  └──────┘      └──────┘      └──────┘
-       └───────────────────┼───────────────────┘
-                             │
-              ┌─────────────┤─────────────┐
-              │   YOU — restored + known    │
-              └──────────────────────────────┘
-```
+| # | Engine | One Word |
+|:-:|:---|:---:|
+| 01 | **Context Stream Engine™** | Thread |
+| 02 | **Personal Media Memory™** | Feeling |
+| 03 | **CinematicAI™** | Taste |
+| 04 | **Cognitive Graph Language™** | Structure |
+| 05 | **Predictive Failure Recovery™** | Lens |
+| 06 | **Emotional State Detection System™** | Signal |
+| 07 | **CLP Ledger Protocol™** | Proof |
+| 08 | **Certify Originality™** | Signature |
+| 09 | **Emotional State Delivery System™** | Vector |
 
-| # | Engine | One Word | What It Solves |
-|:-:|:---|:---:|:---|
-| 01 | **Context Stream Engine™** | Thread | AI forgets context between sessions |
-| 02 | **Personal Media Memory™** | Feeling | AI can't recall what moved you |
-| 03 | **CinematicAI™** | Taste | AI doesn't know your aesthetic |
-| 04 | **Cognitive Graph Language™** | Structure | AI stores facts, not relationships |
-| 05 | **Predictive Failure Recovery™** | Lens | AI shows the same world to everyone |
-| 06 | **Emotional State Detection System™** | Signal | AI has no read on how you actually are |
-| 07 | **CLP Ledger Protocol™** | Proof | AI can't verify originality |
-| 08 | **Certify Originality™** | Signature | AI can't authenticate your ideas |
-| 09 | **Emotional State Delivery System™** | Vector | Emotional state can't flow downstream |
+*What each engine solves is available upon request.*
 
 </div>
 
----
-
-## 🔬 The Physics
-
-<div align="center">
-
-```
-Human memory doesn't store like a hard drive.
-It stores like a wave function.
-
-  probability of recall
-        │
-   1.0  │  ●
-        │ ● ●                  ← vivid  (high emotional salience)
-   0.5  │●   ●  ●
-        │●     ●●   ●  ●       ← fading (Ebbinghaus decay)
-   0.0  └────────────────────► t
-
-  M(t) = M₀ · e^(-t/S)              Ebbinghaus forgetting curve
-  P(ψ) = |⟨ψ_recall|ψ_stored⟩|²     retrieval as wave collapse
-  H = -Σ p(x) log p(x)              Shannon entropy of memory state
-
-  The act of recall collapses the wave.
-  NeuroCatalyst™ preserves the superposition.
-  That's not a metaphor. That's the architecture.
-```
-
-</div>
+<br/>
 
 ---
 
-## 🔄 The Self-Diminishing Paradox
+## 🔄 The Paradox
 
 <div align="center">
 
 | Traditional AI | NeuroCatalyst™ |
 |:---:|:---:|
 | More use → More dependency | More use → More autonomy |
-| Engagement metrics → addiction | Independence metrics → wholeness |
 | Remembers for you forever | Teaches you to remember yourself |
 | Complexity grows with use | System fades as user grows |
 
@@ -165,6 +89,8 @@ It stores like a wave function.
 
 </div>
 
+<br/>
+
 ---
 
 ## 🔮 The Timeline
@@ -172,11 +98,11 @@ It stores like a wave function.
 ```
 2026  ◉  9 engines. Patent portfolio. Reduction to practice: May 14, 2026.
          │
-2027  ◉  SDK ships. Developers build on NeuroCatalyst™. $1M ARR.
+2027  ◉  SDK ships. Developers build on NeuroCatalyst™.
          │
-2028  ◉  Consumer product. First AI that genuinely knows you. $5M ARR.
+2028  ◉  Consumer product. First AI that genuinely knows you.
          │
-2030  ◉  NeuroCatalyst™ becomes the standard for personal AI. $25M ARR.
+2030  ◉  NeuroCatalyst™ becomes the standard for personal AI.
          │
 2035  ◉  ███████████████████████████████████  [CLASSIFIED]
 ```
@@ -189,9 +115,9 @@ It stores like a wave function.
 
 | | |
 |---|---|
-| **🔬 [neurocatalyst-ip-prototypes](https://github.com/sENZ5hFx/neurocatalyst-ip-prototypes)**<br/>Pre-filing IP evidence. Runnable. Hash-certified.<br/>`Python` `IP` `Disclosure` | **📡 [framework-playbook-os](https://github.com/sENZ5hFx/framework-playbook-os)**<br/>Open-source product + strategy framework.<br/>`HTML` `JS` `LocalStorage` |
-| **🕯️ [knowledge-system-haley](https://github.com/sENZ5hFx/knowledge-system-haley)**<br/>Live rolling knowledge machine. Gets smarter daily.<br/>`Python` `KnowledgeGraph` `Public` | **🤖 [sios-autoagent](https://github.com/sENZ5hFx/sios-autoagent)**<br/>AI that makes itself unnecessary. That's the point.<br/>`Python` `Notion` `AIAgent` |
-| **🎯 [object-obsession](https://github.com/sENZ5hFx/object-obsession)**<br/>Visual reference deck of 30 industrial design objects.<br/>`HTML` `CSS` `SVG` | **🧠 [CAUSAL_INTELLIGENCE](https://github.com/sENZ5hFx/CAUSAL_INTELLIGENCE)**<br/>Causal ledger, trust graphs, and prediction engine.<br/>`Python` `FastAPI` `PostgreSQL` |
+| **🔬 [neurocatalyst-ip-prototypes](https://github.com/sENZ5hFx/neurocatalyst-ip-prototypes)**<br/>Pre-filing IP evidence. Runnable. Hash-certified. | **📡 [framework-playbook-os](https://github.com/sENZ5hFx/framework-playbook-os)**<br/>Open-source product + strategy framework. |
+| **🕯️ [knowledge-system-haley](https://github.com/sENZ5hFx/knowledge-system-haley)**<br/>Live rolling knowledge machine. Gets smarter daily. | **🤖 [sios-autoagent](https://github.com/sENZ5hFx/sios-autoagent)**<br/>AI that makes itself unnecessary. That’s the point. |
+| **🎯 [object-obsession](https://github.com/sENZ5hFx/object-obsession)**<br/>Visual reference deck — 30 industrial design objects. | **🧠 [CAUSAL_INTELLIGENCE](https://github.com/sENZ5hFx/CAUSAL_INTELLIGENCE)**<br/>Causal ledger, trust graphs, prediction engine. |
 
 </div>
 
@@ -208,19 +134,22 @@ It stores like a wave function.
 
 ## ⚖️ Intellectual Property
 
-- ✅ **Patent-pending:** 9 engines within the NeuroCatalyst™ Master Suite
+- ✅ **Patent-pending:** NeuroCatalyst™ Master Suite — 9 engines
 - ✅ **Reduction to practice:** May 14, 2026
-- ✅ **Prior art searched:** USPTO · Google Scholar · arXiv · GitHub
+- ✅ **Prior art established:** USPTO · Google Scholar · arXiv · GitHub
 - ✅ **Sole inventor:** Haley Ann Bird — Fishers, Indiana, USA
-- 🔒 **Additional IP:** Classified pending filing
+- ✅ **Copyright:** © 2024–2026 Haley Ann Bird. All Rights Reserved.
+- 🔒 **Architecture, claims & implementation:** Not publicly disclosed. Available under NDA to qualified parties.
 
 ---
 
-## 📬 If You're Serious
+## 📬 If You’re Serious
 
 <div align="center">
 
-*Investor, collaborator, engineer, or just curious?*
+*Investor, collaborator, engineer, or just genuinely curious?*
+
+*The details aren’t here. But they exist. Ask.*
 
 ```
 heyhaleybird @ gmail.com
@@ -247,7 +176,7 @@ Subject line: [SOURCE]
   │  inventor: Haley Ann Bird                                                   │
   │  reduction_to_practice: 2026-05-14                                          │
   │  engines: 9                                                                 │
-  │  status: patent-disclosure-filed                                            │
+  │  status: patent-pending                                                     │
   │                                                                             │
   │  if you're serious:                                                         │
   │  echo "heyhaleybird" + "@" + "gmail.com"                                    │
