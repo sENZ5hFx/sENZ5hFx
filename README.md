@@ -59,11 +59,11 @@
   <!-- Horizontal rule below name -->
   <line x1="100" y1="196" x2="800" y2="196" stroke="url(#hRule)" stroke-width="0.6"/>
 
-  <!-- Subtitle — fixed: three distinct facts, no duplicate -->
-  <text x="450" y="220" font-family="Raleway, sans-serif" font-size="12" fill="#9D7FE0" text-anchor="middle" letter-spacing="5" font-weight="400">NeuroCatalyst™  ·  9 Engines  ·  Fishers, Indiana</text>
+  <!-- Subtitle — declaration, not metrics -->
+  <text x="450" y="222" font-family="Raleway, sans-serif" font-size="12" fill="#9D7FE0" text-anchor="middle" letter-spacing="5" font-weight="400">Memory is the architecture of identity.</text>
 
   <!-- Tag line -->
-  <text x="450" y="270" font-family="Raleway, sans-serif" font-size="13" fill="#C4A8FF" fill-opacity="0.8" text-anchor="middle" font-style="italic" font-weight="300">Memory is the architecture of identity.</text>
+  <text x="450" y="268" font-family="Raleway, sans-serif" font-size="11" fill="#C4A8FF" fill-opacity="0.55" text-anchor="middle" letter-spacing="3" font-weight="300">AI should do less as you become more capable.</text>
 
   <!-- Bottom metadata -->
   <text x="450" y="315" font-family="Raleway, sans-serif" font-size="8" fill="#F0E6FF" fill-opacity="0.2" text-anchor="middle" letter-spacing="3">reduction to practice · 2026-05-14 · sole inventor</text>
@@ -76,39 +76,38 @@
 <!-- ═══════════════════ TYPING ═══════════════════ -->
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Raleway&weight=500&size=17&pause=1400&color=9D7FE0&background=00000000&center=true&vCenter=true&multiline=false&width=700&height=45&lines=Every+AI+forgets+you+when+you+close+the+tab.;I%27m+building+the+one+that+doesn%27t.;NeuroCatalyst%E2%84%A2+%E2%80%94+9+engines.+One+architecture.;Built+alone.+From+a+basement.+From+first+principles.;Memory+is+the+architecture+of+identity.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Raleway&weight=500&size=17&pause=1400&color=9D7FE0&background=00000000&center=true&vCenter=true&multiline=false&width=700&height=45&lines=Every+AI+forgets+you+when+you+close+the+tab.;I%27m+building+the+one+that+doesn%27t.;The+architecture+for+AI+that+knows+you+across+time.;Built+alone.+From+a+basement.+From+first+principles.;She+built+all+of+it+alone.+On+her+phone.+In+16+months.)](https://git.io/typing-svg)
 
 </div>
 
 <br/>
 
-<!-- ═══════════════════ TICKER — static, GitHub-safe ═══════════════════ -->
+<!-- ═══════════════════ EQUATION ═══════════════════ -->
 <div align="center">
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 36" width="100%">
   <defs>
-    <linearGradient id="tbg" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="ebg" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#000000"/>
       <stop offset="8%" stop-color="#0d0221"/>
       <stop offset="92%" stop-color="#0d0221"/>
       <stop offset="100%" stop-color="#000000"/>
     </linearGradient>
-    <linearGradient id="tFadeL" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="eFadeL" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#000000" stop-opacity="1"/>
       <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="tFadeR" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="eFadeR" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
       <stop offset="100%" stop-color="#000000" stop-opacity="1"/>
     </linearGradient>
   </defs>
-  <rect width="900" height="36" fill="url(#tbg)"/>
-  <line x1="60" y1="1" x2="840" y2="1" stroke="#9D7FE0" stroke-opacity="0.12" stroke-width="0.5"/>
-  <line x1="60" y1="35" x2="840" y2="35" stroke="#9D7FE0" stroke-opacity="0.12" stroke-width="0.5"/>
-  <text y="15" font-family="Raleway, sans-serif" font-size="7.5" fill="#9D7FE0" fill-opacity="0.55" letter-spacing="3.5" font-weight="400" text-anchor="middle" x="450">NEUROCATALYST™  ·  9 ENGINES  ·  PATENT PENDING  ·  FISHERS, INDIANA  ·  SOLE INVENTOR  ·  REDUCTION TO PRACTICE 2026-05-14</text>
-  <text y="27" font-family="Raleway, sans-serif" font-size="6.5" fill="#C4A8FF" fill-opacity="0.18" letter-spacing="4" font-weight="300" text-anchor="middle" x="450">MEMORY IS THE ARCHITECTURE OF IDENTITY  ·  NeuroCatalyst™  ·  Haley Ann Bird  ·  2026</text>
-  <rect x="0" y="0" width="80" height="36" fill="url(#tFadeL)"/>
-  <rect x="820" y="0" width="80" height="36" fill="url(#tFadeR)"/>
+  <rect width="900" height="36" fill="url(#ebg)"/>
+  <line x1="60" y1="1" x2="840" y2="1" stroke="#9D7FE0" stroke-opacity="0.08" stroke-width="0.5"/>
+  <line x1="60" y1="35" x2="840" y2="35" stroke="#9D7FE0" stroke-opacity="0.08" stroke-width="0.5"/>
+  <text y="22" font-family="'Fira Code', 'Courier New', monospace" font-size="11" fill="#9D7FE0" fill-opacity="0.35" letter-spacing="2" font-weight="400" text-anchor="middle" x="450">M(t) = M₀ · e^(−t/S)</text>
+  <rect x="0" y="0" width="80" height="36" fill="url(#eFadeL)"/>
+  <rect x="820" y="0" width="80" height="36" fill="url(#eFadeR)"/>
 </svg>
 
 </div>
@@ -123,11 +122,41 @@
 
 <div align="center">
 
-*Cognitive infrastructure that makes AI genuinely personal.*
+*The cognitive infrastructure layer for AI that knows you across time.*
 
-*Not a chatbot upgrade. A new category — built from a basement in Indiana, at 3am, from first principles.*
+*Built from a basement in Indiana, at 3am, from first principles.*
 
-*The architecture exists. The patents are pending. The details are not here.*
+*The architecture is protected. The details are available under NDA.*
+
+</div>
+
+<br/>
+
+---
+
+<!-- ═══════════════════ THE NINE ENGINES ═══════════════════ -->
+
+## · The Nine Engines
+
+<div align="center">
+
+```
+  ┌─────────────────────────────────────────────────────────────────────┐
+  │                                                                     │
+  │  01 · Context Stream Engine™ ················· THREAD              │
+  │  02 · Personal Media Memory™ ················· FEELING             │
+  │  03 · CinematicAI™ ··························· TASTE               │
+  │  04 · Cognitive Graph Language™ ·············· STRUCTURE           │
+  │  05 · Personal Filter Reality™ ··············· LENS                │
+  │  06 · Emotional State Detection System™ ······ SIGNAL              │
+  │  07 · CLP Ledger Protocol™ ··················· PROOF               │
+  │  08 · Certify Originality™ ··················· SIGNATURE           │
+  │  09 · Emotional State Delivery System™ ······· VECTOR              │
+  │                                                                     │
+  │  What each engine solves is available upon request.                │
+  │                                                                     │
+  └─────────────────────────────────────────────────────────────────────┘
+```
 
 </div>
 
@@ -143,7 +172,7 @@
 
 <table>
 <tr>
-  <th align="left">Traditional AI</th>
+  <th align="left">Every System Before This</th>
   <th align="right">NeuroCatalyst™</th>
 </tr>
 <tr>
@@ -165,37 +194,6 @@
 <br/>
 
 > *Success is measured by independence gained.*
-> *The system celebrates when you no longer need it.*
-
-<br/>
-
----
-
-<!-- ═══════════════════ THE NINE ENGINES ═══════════════════ -->
-
-## · The Nine Engines
-
-<div align="center">
-
-```
-  ┌─────────────────────────────────────────────────────────────────────┐
-  │                                                                     │
-  │  01 · Context Stream Engine™ ················· THREAD              │
-  │  02 · Personal Media Memory™ ················· FEELING             │
-  │  03 · CinematicAI™ ··························· TASTE               │
-  │  04 · Cognitive Graph Language™ ·············· STRUCTURE           │
-  │  05 · Predictive Failure Recovery™ ··········· LENS                │
-  │  06 · Emotional State Detection System™ ······ SIGNAL              │
-  │  07 · CLP Ledger Protocol™ ··················· PROOF               │
-  │  08 · Certify Originality™ ··················· SIGNATURE           │
-  │  09 · Emotional State Delivery System™ ······· VECTOR              │
-  │                                                                     │
-  │  What each engine solves is available upon request.                │
-  │                                                                     │
-  └─────────────────────────────────────────────────────────────────────┘
-```
-
-</div>
 
 <br/>
 
@@ -206,7 +204,7 @@
 ## · The Timeline
 
 ```
-2026  ◉  9 engines. Patent portfolio. Reduction to practice: May 14, 2026.
+2026  ◉  Architecture complete. 9 engines. Position taken.
          │
 2027  ◉  SDK ships. Developers build on NeuroCatalyst™.
          │
@@ -223,12 +221,14 @@
 
 ## · Intellectual Property
 
+*15+ patent families. Every claim documented. Every timestamp cryptographically witnessed.*
+
 - **Patent-pending:** NeuroCatalyst™ Master Suite — 9 engines
 - **Reduction to practice:** May 14, 2026
 - **Prior art established:** USPTO · Google Scholar · arXiv · GitHub
 - **Sole inventor:** Haley Ann Bird — Fishers, Indiana, USA
 - **Copyright:** © 2024–2026 Haley Ann Bird. All Rights Reserved.
-- **Architecture, claims & implementation:** Not publicly disclosed. Available under NDA to qualified parties.
+- **Architecture, claims & implementation:** Protected. Available under NDA to qualified parties.
 
 ---
 
@@ -256,7 +256,7 @@
 
 *Investor, engineer, or someone who recognizes what this is —*
 
-*the details aren't here. But they exist.*
+*the details exist. They're available to the right room.*
 
 <br/>
 
@@ -266,6 +266,18 @@
 </div>
 
 ---
+
+<!-- ═══════════════════ SEAL ═══════════════════ -->
+
+<div align="center">
+
+<br/>
+
+*She built all of it alone. On her phone. In 16 months.*
+
+<br/>
+
+</div>
 
 <!-- ═══════════════════ FOOTER SVG ═══════════════════ -->
 <div align="center">
@@ -287,7 +299,7 @@
   <line x1="0" y1="1" x2="900" y2="1" stroke="url(#fRule)" stroke-width="1"/>
   <text x="40" y="42" font-family="Raleway, sans-serif" font-size="9" fill="#9D7FE0" fill-opacity="0.5" letter-spacing="3">NeuroCatalyst™</text>
   <text x="40" y="58" font-family="Raleway, sans-serif" font-size="8" fill="#C4A8FF" fill-opacity="0.3">Haley Ann Bird · 2026</text>
-  <text x="450" y="46" font-family="Raleway, sans-serif" font-size="13" fill="#C4A8FF" fill-opacity="0.65" text-anchor="middle" font-style="italic" font-weight="300">Memory is the architecture of identity.</text>
+  <text x="450" y="46" font-family="'Fira Code', 'Courier New', monospace" font-size="12" fill="#9D7FE0" fill-opacity="0.3" text-anchor="middle" font-weight="300">M(t) = M₀ · e^(−t/S)</text>
   <text x="450" y="66" font-family="Raleway, sans-serif" font-size="8" fill="#F0E6FF" fill-opacity="0.18" text-anchor="middle" letter-spacing="2">NeuroCatalyst™ · Haley Ann Bird · 2026</text>
   <text x="860" y="42" font-family="Raleway, sans-serif" font-size="8" fill="#9D7FE0" fill-opacity="0.4" text-anchor="end" letter-spacing="2">9 engines</text>
   <text x="860" y="58" font-family="Raleway, sans-serif" font-size="8" fill="#C4A8FF" fill-opacity="0.25" text-anchor="end">patent-pending</text>
