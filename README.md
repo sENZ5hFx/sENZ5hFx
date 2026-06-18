@@ -2,7 +2,7 @@
 
 ### "Building memory systems that grow with you."
 
-> 📡 TRANSMISSION — Governed by the [Haley Visual Doctrine · v0.2](https://github.com/sENZ5hFx/NeuroCatalyst-Vault/blob/main/docs/haley-visual-doctrine-v02.md)
+<!-- 📡 TRANSMISSION — Haley Visual Doctrine v0.2: https://github.com/sENZ5hFx/NeuroCatalyst-Vault/blob/main/docs/haley-visual-doctrine-v02.md -->
 
 <div align="center">
    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0f,25:0d0221,60:1a0533,100:000000&height=200&section=header&text=Welcome%20to%20NeuroCatalyst™&fontSize=36&fontColor=ffffff" alt="Animated Header">
