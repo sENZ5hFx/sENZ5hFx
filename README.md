@@ -3,12 +3,12 @@
 
 <!-- ===== HEADER ===== -->
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0a0a0f,25:0d0221,60:1a0533,100:000000&height=300&section=header&text=HALEY%20ANN%20BIRD&fontSize=54&fontColor=E8D5FF&fontAlignY=42&animation=fadeIn&stroke=0d0221&strokeWidth=3&desc=Independent%20AI%20Inventor%20%C2%B7%20NeuroCatalyst%E2%84%A2%20%C2%B7%20Fishers%2C%20Indiana&descSize=15&descAlignY=62&descColor=c9b8ff" width="100%" alt="Haley Ann Bird — NeuroCatalyst™"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0a0a0f,25:0d0221,60:1a0533,100:000000&height=300&section=header&text=HALEY%20ANN%20BIRD&fontSize=54&fontAlign=50&fontAlignY=42&fontColor=E8D5FF&fontFamily=Raleway&animation=fadeIn&stroke=0d0221&strokeWidth=3&desc=Independent%20AI%20Inventor%20%C2%B7%20NeuroCatalyst%E2%84%A2%20%C2%B7%20Fishers%2C%20Indiana&descSize=15&descAlignY=62&descColor=c9b8ff&descAlignX=50" width="100%" alt="Haley Ann Bird — NeuroCatalyst™"/>
 </div>
 
 <!-- ===== TYPING ===== -->
 <div align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&pause=1400&color=9D7FE0&background=00000000&center=true&vCenter=true&multiline=false&width=700&height=45&lines=Every+AI+forgets+you+when+you+close+the+tab.;I%27m+building+the+one+that+doesn%27t.;NeuroCatalyst%E2%84%A2+%E2%80%94+9+engines.+One+architecture.;Built+alone.+From+a+basement.+From+first+principles.;Memory+is+the+architecture+of+identity." alt="Typing animation" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Raleway&weight=500&size=17&pause=1400&color=9D7FE0&background=00000000&center=true&vCenter=true&multiline=false&width=700&height=45&lines=Every+AI+forgets+you+when+you+close+the+tab.;I%27m+building+the+one+that+doesn%27t.;NeuroCatalyst%E2%84%A2+%E2%80%94+9+engines.+One+architecture.;Built+alone.+From+a+basement.+From+first+principles.;Memory+is+the+architecture+of+identity." alt="Typing animation" /></a>
 </div>
 
 <br/>
@@ -233,7 +233,7 @@ Subject line: [SOURCE]
 
 <!-- ===== FOOTER ===== -->
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:0d0221,100:1a0533&height=130&section=footer&text=Memory%20is%20the%20architecture%20of%20identity.&fontSize=16&fontColor=c9b8ff&animation=fadeIn&stroke=0d0221&strokeWidth=2&desc=NeuroCatalyst%E2%84%A2%20%C2%B7%20Haley%20Ann%20Bird%20%C2%B7%202026&descSize=11&descColor=ffffff" width="100%" alt="Footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:0d0221,100:1a0533&height=130&section=footer&text=Memory%20is%20the%20architecture%20of%20identity.&fontSize=16&fontColor=c9b8ff&fontFamily=Raleway&animation=fadeIn&stroke=0d0221&strokeWidth=2&desc=NeuroCatalyst%E2%84%A2%20%C2%B7%20Haley%20Ann%20Bird%20%C2%B7%202026&descSize=11&descColor=ffffff" width="100%" alt="Footer" />
 </div>
 
 <!--
