@@ -82,18 +82,37 @@
 
 <br/>
 
----
-
-## 🌀 Who Lands Here
-
-> *This isn't a portfolio. It's a collision point.*
-> *One person built something that shouldn't exist yet.*
-
+<!-- ═══════════════════ MARQUEE BAND ═══════════════════ -->
 <div align="center">
 
-| 💰 Investor | 👩‍💻 Engineer | 🌌 Everyone Else |
-|:---:|:---:|:---:|
-| IP moat. Category creation. Right timing. | Read the architecture. Respect the prior art. | Feel it first. Understand it after. |
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 32" width="100%">
+  <defs>
+    <linearGradient id="mbg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="10%" stop-color="#0d0221"/>
+      <stop offset="90%" stop-color="#0d0221"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="mFade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="1"/>
+      <stop offset="8%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="92%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="32" fill="url(#mbg)"/>
+  <text font-family="Raleway, sans-serif" font-size="8" fill="#9D7FE0" fill-opacity="0.5" letter-spacing="4" font-weight="400">
+    <textPath href="#mpath">
+      NEUROCATALYST™ · 9 ENGINES · PATENT PENDING · FISHERS INDIANA · SOLE INVENTOR · REDUCTION TO PRACTICE 2026-05-14 · MEMORY IS THE ARCHITECTURE OF IDENTITY · NEUROCATALYST™ · 9 ENGINES · PATENT PENDING · FISHERS INDIANA ·
+      <animate attributeName="startOffset" from="0%" to="-100%" dur="28s" repeatCount="indefinite"/>
+    </textPath>
+  </text>
+  <defs>
+    <path id="mpath" d="M0,20 H2700"/>
+  </defs>
+  <!-- Fade masks -->
+  <rect width="900" height="32" fill="url(#mFade)"/>
+</svg>
 
 </div>
 
@@ -101,7 +120,9 @@
 
 ---
 
-## 🧠 What Is NeuroCatalyst™?
+<!-- ═══════════════════ THE THING ITSELF ═══════════════════ -->
+
+## · What Is NeuroCatalyst™
 
 <div align="center">
 
@@ -117,7 +138,34 @@
 
 ---
 
-## ⚡ The Nine Engines
+<!-- ═══════════════════ THE PARADOX ═══════════════════ -->
+
+## · The Paradox
+
+<div align="center">
+
+| Traditional AI | NeuroCatalyst™ |
+|:---|:---|
+| More use → More dependency | More use → More autonomy |
+| Remembers for you forever | Teaches you to remember yourself |
+| Complexity grows with use | System fades as user grows |
+
+</div>
+
+<div align="center">
+
+*Success is measured by independence gained.*
+*The system celebrates when you no longer need it.*
+
+</div>
+
+<br/>
+
+---
+
+<!-- ═══════════════════ THE NINE ENGINES ═══════════════════ -->
+
+## · The Nine Engines
 
 <div align="center">
 
@@ -145,18 +193,20 @@
 
 ---
 
-## 🔄 The Paradox
+<!-- ═══════════════════ WHO LANDS HERE ═══════════════════ -->
+
+## · Who Lands Here
+
+*This isn't a portfolio. It's a collision point.*
+*One person built something that shouldn't exist yet.*
+
+<br/>
 
 <div align="center">
 
-| Traditional AI | NeuroCatalyst™ |
-|:---:|:---:|
-| More use → More dependency | More use → More autonomy |
-| Remembers for you forever | Teaches you to remember yourself |
-| Complexity grows with use | System fades as user grows |
-
-> *Success is measured by independence gained.*
-> *The system celebrates when you no longer need it.*
+| Investor | Engineer | Everyone Else |
+|:---|:---|:---|
+| IP moat. Category creation. Right timing. | Read the architecture. Respect the prior art. | Feel it first. Understand it after. |
 
 </div>
 
@@ -164,7 +214,9 @@
 
 ---
 
-## 🔮 The Timeline
+<!-- ═══════════════════ THE TIMELINE ═══════════════════ -->
+
+## · The Timeline
 
 ```
 2026  ◉  9 engines. Patent portfolio. Reduction to practice: May 14, 2026.
@@ -180,21 +232,25 @@
 
 ---
 
-## 📁 Active Repositories
+<!-- ═══════════════════ ACTIVE REPOSITORIES ═══════════════════ -->
+
+## · Active Repositories
 
 <div align="center">
 
 | | |
 |---|---|
-| **🔬 [neurocatalyst-ip-prototypes](https://github.com/sENZ5hFx/neurocatalyst-ip-prototypes)**<br/>Pre-filing IP evidence. Runnable. Hash-certified. | **📡 [framework-playbook-os](https://github.com/sENZ5hFx/framework-playbook-os)**<br/>Open-source product + strategy framework. |
-| **🕯️ [knowledge-system-haley](https://github.com/sENZ5hFx/knowledge-system-haley)**<br/>Live rolling knowledge machine. Gets smarter daily. | **🤖 [sios-autoagent](https://github.com/sENZ5hFx/sios-autoagent)**<br/>AI that makes itself unnecessary. That's the point. |
-| **🎯 [object-obsession](https://github.com/sENZ5hFx/object-obsession)**<br/>Visual reference deck — 30 industrial design objects. | **🧠 [CAUSAL_INTELLIGENCE](https://github.com/sENZ5hFx/CAUSAL_INTELLIGENCE)**<br/>Causal ledger, trust graphs, prediction engine. |
+| **[neurocatalyst-ip-prototypes](https://github.com/sENZ5hFx/neurocatalyst-ip-prototypes)**<br/>Pre-filing IP evidence. Runnable. Hash-certified. | **[framework-playbook-os](https://github.com/sENZ5hFx/framework-playbook-os)**<br/>Open-source product + strategy framework. |
+| **[knowledge-system-haley](https://github.com/sENZ5hFx/knowledge-system-haley)**<br/>Live rolling knowledge machine. Gets smarter daily. | **[sios-autoagent](https://github.com/sENZ5hFx/sios-autoagent)**<br/>AI that makes itself unnecessary. That's the point. |
+| **[object-obsession](https://github.com/sENZ5hFx/object-obsession)**<br/>Visual reference deck — 30 industrial design objects. | **[CAUSAL_INTELLIGENCE](https://github.com/sENZ5hFx/CAUSAL_INTELLIGENCE)**<br/>Causal ledger, trust graphs, prediction engine. |
 
 </div>
 
 ---
 
-## 📊 Activity
+<!-- ═══════════════════ ACTIVITY ═══════════════════ -->
+
+## · Activity
 
 <div align="center">
 <img width="48%" src="https://github-readme-stats.vercel.app/api?username=sENZ5hFx&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d0221&title_color=9d7fe0&icon_color=9d7fe0&text_color=ffffff" alt="GitHub Stats" />
@@ -203,28 +259,30 @@
 
 ---
 
-## ⚖️ Intellectual Property
+<!-- ═══════════════════ INTELLECTUAL PROPERTY ═══════════════════ -->
 
-- ✅ **Patent-pending:** NeuroCatalyst™ Master Suite — 9 engines
-- ✅ **Reduction to practice:** May 14, 2026
-- ✅ **Prior art established:** USPTO · Google Scholar · arXiv · GitHub
-- ✅ **Sole inventor:** Haley Ann Bird — Fishers, Indiana, USA
-- ✅ **Copyright:** © 2024–2026 Haley Ann Bird. All Rights Reserved.
-- 🔒 **Architecture, claims & implementation:** Not publicly disclosed. Available under NDA to qualified parties.
+## · Intellectual Property
+
+- **Patent-pending:** NeuroCatalyst™ Master Suite — 9 engines
+- **Reduction to practice:** May 14, 2026
+- **Prior art established:** USPTO · Google Scholar · arXiv · GitHub
+- **Sole inventor:** Haley Ann Bird — Fishers, Indiana, USA
+- **Copyright:** © 2024–2026 Haley Ann Bird. All Rights Reserved.
+- **Architecture, claims & implementation:** Not publicly disclosed. Available under NDA to qualified parties.
 
 ---
 
-## 📬 If You're Serious
+<!-- ═══════════════════ CONTACT ═══════════════════ -->
+
+## · If You're Serious
 
 <div align="center">
-
-*Investor, collaborator, engineer, or just genuinely curious?*
 
 *The details aren't here. But they exist. Ask.*
 
 ```
-heyhaleybird @ gmail.com
-Subject line: [SOURCE]
+heyhaleybird@gmail.com
+Subject line: [SOURCE]  ↱
 ```
 
 </div>
