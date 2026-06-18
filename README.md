@@ -3,7 +3,7 @@
 
 <!-- ===== HEADER ===== -->
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0a0a0f,20:0d0221,55:1a0533,85:0d0221,100:000000&height=360&section=header&text=HALEY%20ANN%20BIRD&fontSize=58&fontAlign=50&fontAlignY=38&fontColor=F0E6FF&fontFamily=Raleway&animation=fadeIn&desc=Independent%20AI%20Inventor%20%C2%B7%20NeuroCatalyst%E2%84%A2%20%C2%B7%20Fishers%2C%20Indiana&descSize=15&descAlignY=56&descColor=C4A8FF&descAlignX=50" width="100%" alt="Haley Ann Bird — NeuroCatalyst™"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0a0a0f,20:0d0221,55:1a0533,85:0d0221,100:000000&height=420&section=header&text=HALEY%20ANN%20BIRD&fontSize=64&fontAlign=50&fontAlignY=36&fontColor=F0E6FF&fontFamily=Raleway&animation=fadeIn&desc=Independent%20AI%20Inventor%20%C2%B7%20NeuroCatalyst%E2%84%A2%20%C2%B7%20Fishers%2C%20Indiana&descSize=16&descAlignY=54&descColor=C4A8FF&descAlignX=50" width="100%" alt="Haley Ann Bird — NeuroCatalyst™"/>
 </div>
 
 <!-- ===== TYPING ===== -->
