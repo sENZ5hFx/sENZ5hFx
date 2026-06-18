@@ -8,7 +8,7 @@
 
 <!-- ===== TYPING ===== -->
 <div align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Raleway&weight=700&size=19&pause=1200&color=9D7FE0&center=true&vCenter=true&width=750&height=50&lines=Every+AI+forgets+you+when+you+close+the+window.;I%27m+building+the+one+that+doesn%27t.;Memory+is+the+architecture+of+identity." alt="Typing animation" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&pause=1400&color=9D7FE0&background=00000000&center=true&vCenter=true&multiline=false&width=700&height=45&lines=Every+AI+forgets+you+when+you+close+the+tab.;I%27m+building+the+one+that+doesn%27t.;NeuroCatalyst%E2%84%A2+%E2%80%94+9+engines.+One+architecture.;Built+alone.+From+a+basement.+From+first+principles.;Memory+is+the+architecture+of+identity." alt="Typing animation" /></a>
 </div>
 
 <br/>
